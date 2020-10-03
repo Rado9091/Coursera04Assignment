@@ -1,1 +1,291 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2-solution</title>
+	<style>
+	
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+div div{
+		 
+		 margin: 0 0 0 0;
+		 border: none;
+}
+
+h1 {
+	  text-align: center;
+  	font-family: cursive;
+    font-size: 30px;
+}
+
+h2{
+	border: 2px solid black;
+	float: right;
+	background-color: #A52A2A;
+	margin-top: 34px;
+	margin-bottom: 5px;
+	margin-left: 510px;
+	margin-right: 21px;
+  padding-right:10px;
+  padding-left: 10px;
+	font-family: inherit;
+	color: navy;
+}
+
+  #h21{
+    background-color: green;
+  }
+  #h22{
+    background-color: pink;
+  }
+  #h23{
+    background-color: orange;
+  }
+
+p {
+  border: 2px solid black;
+  background-color: #D1CECD;
+  width: 90%;
+  height: 170px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  padding: 0 5px 0 5px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  height: auto;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: none;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+
+  h1 {
+      text-align: center;
+      font-family: cursive;
+      font-size: 30px;
+  }
+
+  h2{
+    border: 2px solid black;
+    float: right;
+    background-color: #A52A2A;
+    margin-top: 34px;
+    margin-bottom: 5px;
+    margin-left: 510px;
+    margin-right: 21px;
+    padding-right:10px;
+    padding-left: 10px;
+    font-family: inherit;
+    color: navy;
+  }
+
+  p {
+    border: 2px solid black;
+    background-color: #D1CECD;
+    width: 90%;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: none;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+  h1 {
+  	  text-align: center;
+    	margin-bottom: 15px;
+    	font-family: cursive;
+      font-size: 40px;
+  }
+
+  h2{
+    	border: 2px solid black;
+    	float: right;
+    	background-color: #A52A2A;
+    	margin-top: 35px;
+    	margin-bottom: 10px;
+    	margin-left: 678px;
+    	margin-right: 1px;
+      padding-right: 10px;
+      padding-left: 10px;
+    	font-family: inherit;
+    	color: navy;
+  }
+
+  p {
+      border-radius: 2px solid black;
+      background-color: #D1CECD;
+      width: 100%;
+      height: auto;
+      padding: 0 10px 0 10px;
+      font-family: Helvetica;
+      color: black;
+  }
+  
+#h23{
+      margin-left: 900px;   
+  }
+
+}
+
+/********** Mobile devices **********/
+@media(max-width: 767px) {
+  div div{
+		 margin: 0 0 0 0;
+		 border: none;
+  }
+
+h1 {
+	text-align: center;
+  	font-family: cursive;
+    font-size: 40px;
+}
+
+h2{
+	float: right;
+	background-color: #A52A2A;
+	margin-top: 34px;
+	margin-bottom: 5px;
+	margin-right: 25px;
+}
+
+p {
+  border: 2px solid black;
+  background-color: #D1CECD;
+  width: 90%;
+  height: 170px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+ }
+}
+
+	</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row1">
+	<div class="col-lg-4 col-md-6">
+		<h2 id="h21">Chicken</h2><br>
+		<p id="p1">
+			Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures arount the world.
+		</p>
+	</div>
+</div>
+
+<div class="row2">
+	<div class="col-lg-4 col-md-6">
+		<h2 id="h22">Beef</h2><br>
+		<p id="p2">
+			Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures arount the world.
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-4 col-md-6 col-md-12">
+		<h2 id="h23">Sushi</h2><br>
+		<p id="p3">
+			Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures arount the world.
+		</p>
+	</div>
+</div>
+
+</body>
+</html>
