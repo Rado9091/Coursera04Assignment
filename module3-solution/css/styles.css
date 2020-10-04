@@ -1,0 +1,104 @@
+body{
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+/**** HEADER ****/
+#header-nav{
+	background-color: gray;
+	border: 1px solid black;
+	border-width: 100%;
+	border-radius: 0;
+	line-height: .5;
+	margin: 0 0 0 0;
+}
+.navbar-brand{
+  	border-radius: 0;
+  }
+
+.navbar-header .navbar-brand h1{  /* Food, LLC */
+	font-family: sans-serif;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	line-height: .75;
+	text-align: left;
+	padding-top: 0;
+}
+
+/**Editing Navbar Icon shape***/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+h1{ /* Our Menu */
+	font-family: cursive;
+	color: black;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ 
+.menucontent{
+	background-color: gray;
+	color: black;
+	border: none;
+	margin: 0 20px 0 20px;
+	padding: 0;
+}
+
+.menucontent h2{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+.menucontent p{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #collapsable-nav a { /* Collapsed nav list */
+    display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ #collapsable-nav a { /* Collapsed nav list */
+    display: none;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+ #collapsable-nav a { /* Collapsed nav list */
+    display: none;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ 
+  #collapsable-nav{
+  	background-color: white;
+  }
+
+  #collapsable-nav a { /* Collapsed nav list */
+    font-size: 1.2em;
+    text-align: center;
+  }
+ }
