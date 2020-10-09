@@ -29,6 +29,7 @@ WARNING!!! WARNING!!!
 
 */
 
+//Calling Functions
  helloSpeaker();
  byeSpeaker();
 
